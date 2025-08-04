@@ -1,3 +1,20 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Calculadora de la Ley de Hooke
+
+Una calculadora interactiva para realizar cálculos basados en la Ley de Hooke (F = kx).
+Permite calcular fuerza, constante elástica o elongación de resortes.
+
+Autor: Diego González Velasco
+Email: cormac434@gmail.com
+GitHub: @Cormac434
+Ubicación: Ciudad de México
+Año: 2025
+
+Licencia: Este proyecto se distribuye bajo los términos que el autor considere apropiados.
+"""
+
 def calcular_fuerza(k, x):
     return k * x
 

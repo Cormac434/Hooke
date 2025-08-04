@@ -6,10 +6,18 @@ La **Ley de Hooke** es un principio fundamental de la física que describe el co
 
 ### Fórmula: F = kx
 
+$$F = kx$$
+
 Donde:
 - **F** = Fuerza aplicada (Newtons - N)
 - **k** = Constante de elasticidad del resorte (N/m)
 - **x** = Elongación o deformación (metros - m)
+
+**Variaciones de la fórmula:**
+
+- Para calcular la fuerza: $$F = kx$$
+- Para calcular la constante elástica: $$k = \frac{F}{x}$$
+- Para calcular la elongación: $$x = \frac{F}{k}$$
 
 Esta ley establece que la fuerza necesaria para estirar o comprimir un resorte es directamente proporcional a la distancia que se estira o comprime, siempre y cuando no se exceda el límite elástico del material.
 
@@ -105,6 +113,16 @@ La Ley de Hooke tiene múltiples aplicaciones en:
 - La ley es válida solo dentro del **límite elástico** del material
 - No aplica a deformaciones permanentes o plásticas
 - Los valores extremos pueden no seguir esta relación lineal
+
+---
+
+## Autor
+
+**Diego González Velasco**  
+📧 cormac434@gmail.com  
+🐙 [@Cormac434](https://github.com/Cormac434)  
+📍 Ciudad de México  
+📅 2025
 
 ---
 

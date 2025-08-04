@@ -21,7 +21,7 @@ Donde:
 
 Esta ley establece que la fuerza necesaria para estirar o comprimir un resorte es directamente proporcional a la distancia que se estira o comprime, siempre y cuando no se exceda el límite elástico del material.
 
-## Características del Calculador
+## Características de la calculadora
 
 Esta calculadora interactiva te permite calcular cualquiera de los tres parámetros de la Ley de Hooke:
 
@@ -29,14 +29,14 @@ Esta calculadora interactiva te permite calcular cualquiera de los tres parámet
 2. **Constante de Elasticidad (k)** - Cuando conoces la fuerza y la elongación
 3. **Elongación (x)** - Cuando conoces la fuerza y la constante elástica
 
-### Características principales:
+### Características principales
 - ✨ Interfaz amigable en español
-- 🔄 Opción de realizar múltiples cálculos
+- 🔄 Opción para hacer varios cálculos
 - 🚪 Opciones de salida flexibles
 - 📊 Resultados con precisión de 2 decimales
 - ⚡ Cálculos instantáneos
 
-## Instrucciones de Uso
+## Instrucciones de uso
 
 ### Requisitos
 - Python 3.12 (incluido en el entorno virtual)
@@ -62,23 +62,23 @@ Esta calculadora interactiva te permite calcular cualquiera de los tres parámet
    python3 calc_hooke.py
    ```
 
-### Uso Interactivo
+### Uso interactivo
 
-1. **Menú Principal:**
+1. **Menú principal:**
    - Selecciona la opción correspondiente (1-4)
    - Opción 4 para salir del programa
 
-2. **Ingreso de Datos:**
+2. **Ingreso de datos:**
    - Introduce los valores numéricos cuando se soliciten
    - Usa punto (.) como separador decimal
    - Las unidades se muestran claramente en cada prompt
 
-3. **Continuar o Salir:**
+3. **Continuar o salir:**
    - Después de cada cálculo, se pregunta si deseas continuar
    - Responde 'y' o 'yes' para continuar
    - Cualquier otra respuesta cerrará el programa
 
-### Ejemplo de Uso
+### Ejemplo de uso
 
 ```
 Bienvenido a la calculadora de Ley de Hooke
@@ -98,7 +98,7 @@ La fuerza aplicada es: 50.00 N
 ¡Muchas gracias por usar la calculadora de Ley de Hooke!
 ```
 
-## Aplicaciones Prácticas
+## Aplicaciones prácticas
 
 La Ley de Hooke tiene múltiples aplicaciones en:
 
@@ -126,4 +126,4 @@ La Ley de Hooke tiene múltiples aplicaciones en:
 
 ---
 
-**Nota:** Este calculador es una herramienta educativa y de referencia. Para aplicaciones críticas de ingeniería, consulta con un profesional cualificado.
+**Nota:** Esta calculadora es una herramienta educativa y de referencia. Para aplicaciones críticas de ingeniería, consulta con un profesional calificado.

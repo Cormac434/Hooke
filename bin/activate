@@ -1,4 +1,4 @@
-# This file must be used with "source bin/activate" *from bash*
+# This file must be used with "source bin/activate" *from bash or zsh*
 # You cannot run it directly
 
 deactivate () {
@@ -17,7 +17,9 @@ deactivate () {
     # Call hash to forget past locations. Without forgetting
     # past locations the $PATH changes we made may not be respected.
     # See "man bash" for more details. hash is usually a builtin of your shell
-    hash -r 2> /dev/null
+    if command -v hash > /dev/null 2>&1; then
+        hash -r 2> /dev/null
+    fi
 
     if [ -n "${_OLD_VIRTUAL_PS1:-}" ] ; then
         PS1="${_OLD_VIRTUAL_PS1:-}"
@@ -51,7 +53,7 @@ case "$(uname)" in
 esac
 
 _OLD_VIRTUAL_PATH="$PATH"
-PATH="$VIRTUAL_ENV/"bin":$PATH"
+PATH="$VIRTUAL_ENV/bin:$PATH"
 export PATH
 
 VIRTUAL_ENV_PROMPT='(Hooke) '
@@ -73,4 +75,6 @@ fi
 
 # Call hash to forget past commands. Without forgetting
 # past commands the $PATH changes we made may not be respected
-hash -r 2> /dev/null
+if command -v hash > /dev/null 2>&1; then
+    hash -r 2> /dev/null
+fi

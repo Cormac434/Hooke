@@ -38,11 +38,14 @@ Esta calculadora interactiva te permite calcular cualquiera de los tres parámet
 
 1. **Activar el entorno virtual:**
    ```bash
-   # En Linux/Mac:
+   # En Linux/macOS (bash/zsh):
    source bin/activate
    
-   # En Windows:
+   # En Windows (PowerShell):
    bin\Activate.ps1
+   
+   # En Windows (Command Prompt):
+   bin\activate.bat
    ```
 
 2. **Ejecutar la calculadora:**

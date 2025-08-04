@@ -33,6 +33,7 @@ Esta calculadora interactiva te permite calcular cualquiera de los tres parámet
 ### Requisitos
 - Python 3.12 (incluido en el entorno virtual)
 - Entorno virtual ya configurado
+- Comando `python3` disponible en el sistema
 
 ### Ejecución
 
@@ -50,7 +51,7 @@ Esta calculadora interactiva te permite calcular cualquiera de los tres parámet
 
 2. **Ejecutar la calculadora:**
    ```bash
-   python calc_hooke.py
+   python3 calc_hooke.py
    ```
 
 ### Uso Interactivo
